@@ -1,0 +1,16 @@
+<div class="card card-question">
+  <div class="absolute-center left">
+    <p><%= @question %></p>
+    <h3><em>- Me</em></h3>
+  </div>
+</div>
+
+<div class="card card-answer">
+  <div class="absolute-center right">
+    <p><strong><%= @answer %></strong></p>
+    <h3><em>- Stupid Coach</em></h3>
+  </div>
+</div>
+
+
+<%= link_to "Ask a new question", "/ask", class: "submit-btn-block block center-block center-txt" %>
